@@ -121,6 +121,9 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-remote-theme
+
+remote_theme: jonaharagon/jekyll-bootstrap-theme
 # https://github.com/jekyll/jekyll/issues/2938
 exclude:
   - Gemfile
