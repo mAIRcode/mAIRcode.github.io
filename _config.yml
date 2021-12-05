@@ -129,4 +129,4 @@ exclude:
   - README.md
   - screenshot.png
   - vendor
-  - footer.html
+  - _includes/footer.html
