@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
+title:       manuel
 email:       your_email@example.com
-author:      John Otander
+author:      manuel (pyxill by John Otander)
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl:     ""
-url:         "https://pixyll.com"
+url:         "https://maircode.de"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
