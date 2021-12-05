@@ -1,19 +1,21 @@
-<footer class="center">
-  <div class="measure">
-    <small>
-      Theme crafted with &lt;3 by <a href="https://johno.com/">John Otander</a> (<a href="https://twitter.com/4lpine">@4lpine</a>).<br>
-      &lt;/&gt; available on <a href="https://github.com/johno/pixyll">GitHub</a>.
-    </small>
-  </div>
-</footer>
-{% if site.enable_anchorjs %}<!-- AnchorJS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.0.0/anchor.min.js"></script>
-<script>
-    anchors.options.visible = 'always';
-    anchors.add('article h2, article h3, article h4, article h5, article h6');
-</script>{% endif %}
-<script type="text/javascript">
-    if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("{{ '/sw.js' | relative_url }}")
-    }
-</script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2113">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+    span.s2 {text-decoration: underline ; font-kerning: none; color: #0000e9; -webkit-text-stroke: 0px #0000e9}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1"><a href="https://johno.com/"><span class="s2"></span></a> (<a href="https://twitter.com/4lpine"><span class="s2">@4lpine</span></a>).</span></p>
+<p class="p1"><span class="s1">&lt;/&gt; theme on <a href="https://github.com/johno/pixyll"><span class="s2">GitHub</span></a>.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">{% if site.enable_anchorjs %} {% endif %}<span class="Apple-converted-space"> </span></span></p>
+</body>
+</html>
