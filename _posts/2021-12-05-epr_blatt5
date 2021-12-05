@@ -1,0 +1,35 @@
+---
+title: Übungsblatt 5 - Hinweise
+author: Manuel
+layout: post
+permalink: /epr5_wise2122_v1/
+categories:
+  - 'EPR'
+tags:
+  - 'Python'
+  - 'EPR'
+  - 'WiSe21/22'
+---
+
+# Hinweise
+
+## Style
+
+- Style Guide:
+    - Was sind Docstrings? => 
+    ```Python
+    def my_function(name, lastname):
+        """ Ich erkläre was die Funktion so macht.
+        
+        :param name: first name of the person
+        :type name: str
+        :param lastname: surname name of the person
+        :type lastname: str
+        
+        :return: name and lastname in one string
+        :rtype: str
+        """
+        x = name + lastname
+        return x
+    ```
+    - Wann Docstrings benutzen? => 1x für Modul, 1xfür jede Funktion
