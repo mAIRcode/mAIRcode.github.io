@@ -1,5 +1,5 @@
 ---
-title: Übungsblatt 5 - Hinweise
+title: Uebungsblatt 5 - Hinweise
 author: Manuel
 layout: post
 permalink: /7f79640ab8/  # sha256(Übungsblatt 5 - Hinweise)[:10]
