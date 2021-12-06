@@ -1,6 +1,5 @@
 ---
-title: Uebungsblatt 5
-subtitle: Bewertung Gr. 11 und Gr.21 EPR
+title: Bewertung Übungsblatt 5
 author: Manuel
 layout: post
 permalink: /7f79640ab8/  # sha256(Übungsblatt 5 - Hinweise)[:10]
@@ -38,7 +37,7 @@ accordion:
     content: Wie/Wo/Was eingeben, gibt es bekannte Bugs, 
 ---
 
-Alle Angaben ohne Gewähr... Sicherlich hab ich was in den Erklärungen übersehen. Aber wenn ihr das alles abdeckt seid ihr schonmal stark unterwegs :)
+Bewertungskriterien für Gruppe 11 und Gruppe 21 in EPR. Alle Angaben ohne Gewähr... Sicherlich hab ich was in den Erklärungen übersehen. Aber wenn ihr das alles abdeckt seid ihr schonmal stark unterwegs :)
 
 # Wie wird bewertet?
 
