@@ -35,3 +35,17 @@ Vielmehr soll die Analyse Antworten auf folgende Fragen liefern:
   - hast du das Programm in Funktionen zerlegt und/oder in modulen ausgelagert? eine kurze Erklärung dazu!
   - welchen Algorithmus und wieso diesen?
   - ...zugegeben, Algorithmus klingt etwas übertrieben für unsere Zwecke, aber z.B. warum diese Datenstruktur? warum z.b. Modulo-Operator hierfür geeignet? ...)
+
+## Doku
+
+Hier fällt einem mehrere Sachen ein: Code-Doku, Programm-Doku, Handbuch...
+Wir fokussieren uns in diesem Tut auf zwei Sachen:
+
+1. Code-Dokumentation
+  - Ist in diesem Tutorium mit guten Kommentaren und Docstrings abgedeckt
+2. README
+  - Stand des Programms (bekannte Bugs etc.)
+  - Was brauche ich zum Auführen des Programms (Python Version, wie heißt das Modul was ich ausführen muss, muss ich weitere Libraries installieren, etc.)
+  - Antworten auf Fragen, wo ihr meint, dass der User haben könnte
+  - Wichtig: Wie Bediene ich das Programm (was muss ich eingeben etc.) => **Benutzerhandbuch**
+
