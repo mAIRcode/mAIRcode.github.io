@@ -26,7 +26,7 @@ accordion:
   - title: User Interface (3 Punkte)
     content: Falsche Eingaben abgefangen, aktueller Spieler, ...
   - title: 3 Funktionen und Testfälle (1 Punkt)
-    content: Beim Programmieren schaut darauf so weit es geht (also so weit es sinnvoll ist) Code in Funktionen auszulagern. Warum? Code ist dadurch viel einfacher zu lesen und Fehler schneller erkennbar. Deshalb verlangen wir hier nach min. 3 Funktionen. Die Funktionen müssen auch getestet werden => bitte nicht vergessen!
+    content: Schaut darauf so weit es geht (bzw. so weit es sinnvoll ist) Code in Funktionen auszulagern. Warum? Code ist dadurch viel einfacher zu lesen und Fehler schneller erkennbar. Deshalb verlangen wir hier nach min. 3 Funktionen. Die Funktionen müssen auch getestet werden => bitte nicht vergessen!
   - title: Computer Leicht (1 Punkt)
     content: Implementierung von Computer leicht als Gegner
   - title: Computer Schwer (2 Punkte)
