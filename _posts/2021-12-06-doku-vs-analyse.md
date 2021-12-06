@@ -22,7 +22,7 @@ Kurze Erklärung wie in Gruppe 11 und Gruppe 21 die Analyse und Dokumentation be
 
 ## Analyse
 
-Gemeint sind hier weniger die Analyse der Problemstellung und insbsondere eine Beschreibung der Vorgehensweise und Lösung des Problems.
+Unter Analyse sind hier weniger die Analyse der Problemstellung als die Beschreibung der Vorgehensweise und Lösung des Problems gemeint.
 Das heißt, bitte die Textaufgabe nicht einfach nochmal wiedergeben - auch mir liegt das Übungsblatt vor... :D
 Vielmehr soll die Analyse Antworten auf folgende Fragen liefern:
 - Annahmen: Wie interpretierst du die Aufgbe?
@@ -36,9 +36,9 @@ Vielmehr soll die Analyse Antworten auf folgende Fragen liefern:
   - welchen Algorithmus und wieso diesen?
   - ...zugegeben, Algorithmus klingt etwas übertrieben für unsere Zwecke, aber z.B. warum diese Datenstruktur? warum z.b. Modulo-Operator hierfür geeignet? ...)
 
-## Doku
+## Dokumentation
 
-Hier fallen einem mehrere Sachen ein: Code-Doku, Programm-Doku, Handbuch...
+Unter Dokumentation fallen einem mehrere Sachen ein: Code-Doku, Programm-Doku, Handbuch...
 Wir fokussieren uns in diesem Tut auf:
 
 1. Code-Dokumentation
