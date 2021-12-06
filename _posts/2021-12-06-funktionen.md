@@ -1,5 +1,5 @@
 ---
-title: funktionen
+title: Funktionen
 author: Manuel
 layout: post
 permalink: /d23a4f609c/  # sha256(Funktionen)[:10]
