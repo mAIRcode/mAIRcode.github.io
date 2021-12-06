@@ -1,5 +1,6 @@
 ---
-title: Uebungsblatt 5 - Hinweise
+title: Uebungsblatt 5
+subtitle: Bewertung Gr. 11 und Gr.21 EPR
 author: Manuel
 layout: post
 permalink: /7f79640ab8/  # sha256(Übungsblatt 5 - Hinweise)[:10]
