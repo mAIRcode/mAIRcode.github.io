@@ -11,8 +11,8 @@ tags:
   - 'EPR'
   - 'WiSe21/22'
 accordion:
-  - title: author-Variable (wenn falsch: NULL PUNKTE auf alles)
-    content: Das muss jetzt einfach passen... Hier gibt es kein Pardon. Im Zweifelsfall nachfragen :)
+  - title: author-Variable (wenn falsch, dann NULL PUNKTE. Auf alles.)
+    content: Das muss jetzt einfach passen... Hier gibt es kein Pardon. Im Zweifelsfall nachfragen!)
   - title: Analyse Spiel und Siegesbedingung (3 Punkte)
     content: Analyse des Problems, Annahmen, Entwurfsmuster, Code-Strukturierung, Herangehensweise, wie geht ihr vor bei Siegesbedingung? Erklärt kurz die 3 Funktionen (siehe Zusatzanforderung)
   - title: Analyse User Interface (2 Punkte)
