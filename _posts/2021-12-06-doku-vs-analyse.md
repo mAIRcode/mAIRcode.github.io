@@ -48,7 +48,9 @@ Wir fokussieren uns in diesem Tut auf:
   - Was brauche ich zum Auführen des Programms (Python Version, wie heißt das Modul was ich ausführen muss, muss ich weitere Libraries installieren, etc.)
   - Antworten auf Fragen, wo ihr meint, dass der User haben könnte
   - Wichtig: Wie Bediene ich das Programm (was muss ich eingeben etc.) => **Benutzerhandbuch**
+  - Die Datei idealerweise README umbenennen. So ziemlich jedes open-source Projekt kommt mit einer README-Datei
 
+ 
 :smile:
 
 {% include note.html content="Nutzt die Gelegenheit euch darin zu üben, kurze und prägnante Sätze zu formulieren! :) :smile: " %}
