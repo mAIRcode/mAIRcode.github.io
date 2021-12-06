@@ -5,4 +5,6 @@ permalink: /about/
 tags: about
 ---
 
-[!Alt text for broken link](https://c.tenor.com/BOqrUfTNnVsAAAAC/the-office-michael-scott.gif)
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](https://c.tenor.com/BOqrUfTNnVsAAAAC/the-office-michael-scott.gif)
+
