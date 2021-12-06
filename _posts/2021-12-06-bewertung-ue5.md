@@ -34,7 +34,7 @@ accordion:
   - title: Dokumentation/Benutzerhandbuch zu Spiel und Siegesbedingung (2 Punkte)
     content: Python Version, Wie komme ich zu dem Punkt wo ich das Spiel ausführen kann (welches modul ausführen,...), gibt es bekannte Bugs, Status des Programms, Benutzerhandbuch zu Spiel und Erleuterung Siegesbedingung
   - title: Dokumentation/Benutzerhandbuch zu User interface (1 Punkt)
-    content: Benutzerschnittstelle erklären: Wie/Wo/Was muss Nutzer eingeben, gibt es bekannte Bugs
+    content: Benutzerschnittstelle erklären - Wie/Wo/Was muss Nutzer eingeben, gibt es bekannte Bugs
 ---
 
 Bewertungskriterien für Gruppe 11 und Gruppe 21 in EPR. Alle Angaben ohne Gewähr... Sicherlich hab ich was in den Erklärungen übersehen. Aber wenn ihr das alles abdeckt seid ihr schonmal stark unterwegs :)
