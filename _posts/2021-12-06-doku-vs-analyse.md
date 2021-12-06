@@ -38,8 +38,8 @@ Vielmehr soll die Analyse Antworten auf folgende Fragen liefern:
 
 ## Doku
 
-Hier fällt einem mehrere Sachen ein: Code-Doku, Programm-Doku, Handbuch...
-Wir fokussieren uns in diesem Tut auf zwei Sachen:
+Hier fallen einem mehrere Sachen ein: Code-Doku, Programm-Doku, Handbuch...
+Wir fokussieren uns in diesem Tut auf:
 
 1. Code-Dokumentation
   - Ist in diesem Tutorium mit guten Kommentaren und Docstrings abgedeckt
@@ -49,3 +49,6 @@ Wir fokussieren uns in diesem Tut auf zwei Sachen:
   - Antworten auf Fragen, wo ihr meint, dass der User haben könnte
   - Wichtig: Wie Bediene ich das Programm (was muss ich eingeben etc.) => **Benutzerhandbuch**
 
+:smile:
+
+{% include note.html content="Nutzt die Gelegenheit euch darin zu üben, kurze und prägnante Sätze zu formulieren! :) :smile: " %}
