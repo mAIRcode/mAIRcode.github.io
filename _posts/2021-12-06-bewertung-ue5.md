@@ -10,7 +10,6 @@ tags:
   - 'Python'
   - 'EPR'
   - 'WiSe21/22'
-
 accordion:
   - title: author-Variable (wenn falsch: NULL PUNKTE auf alles)
     content: Das muss jetzt einfach passen... Hier gibt es kein Pardon. Im Zweifelsfall nachfragen :)
