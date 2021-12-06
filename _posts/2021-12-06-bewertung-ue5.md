@@ -39,8 +39,12 @@ accordion:
 
 Bewertungskriterien für Gruppe 11 und Gruppe 21 in EPR. Alle Angaben ohne Gewähr... Sicherlich hab ich was in den Erklärungen übersehen. Aber wenn ihr das alles abdeckt seid ihr schonmal stark unterwegs :)
 
+
 # Wie wird bewertet?
 
 Vorneweg: Wie im letzten Tutorium besprochen, wird strenger auf Analyse, Doku und Testfälle geschaut. Wir sind jetzt bei Übungsblatt 5, da müssen die drei Sachen sitzen :)
 
+
 {% include accordion.html %}
+
+{% include note.html content="Beachtet dass es die Punkte erst nach bestandenem Code review gibt (wie im Tutorium besprochen)." %}
