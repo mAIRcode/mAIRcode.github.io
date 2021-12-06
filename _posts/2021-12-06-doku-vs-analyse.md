@@ -52,3 +52,6 @@ Wir fokussieren uns in diesem Tut auf:
 :smile:
 
 {% include note.html content="Nutzt die Gelegenheit euch darin zu üben, kurze und prägnante Sätze zu formulieren! :) :smile: " %}
+
+
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
