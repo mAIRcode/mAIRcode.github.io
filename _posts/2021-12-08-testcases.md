@@ -27,5 +27,7 @@ Wie man Testfälle in EPR Abgaben angibt (gültig für Gruppen 11 und 21 im WiSe
 ...durfte man Testfällen in eine .pdf/.txt Datei angeben.
 Hierfür könnt ihr folgendes Template benutzen:
 
-1. TEST {% include fontcolor_grey.html content="Nutzt die Gelegenheit euch darin zu üben, kurze und prägnante Sätze zu formulieren :)" %}
-2. TESTTT
+1. Aufgabe und Funktion: {% include fontcolor_grey.html content="Aufgabe 3.a. Funktion `my_function()`" %}
+2. Was: {% include fontcolor_grey.html content="Ob der return Wert eine Liste ist (weil im Übungsblatt so gefordert...)" %}
+
+{% include fontcolor_grey.html content="Ob der return Wert eine Liste ist (weil im Übungsblatt so gefordert...)" %}
