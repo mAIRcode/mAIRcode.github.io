@@ -27,14 +27,12 @@ Wie man Testfälle in EPR Abgaben angibt (gültig für Gruppen 11 und 21 im WiSe
 ...durfte man Testfällen in eine .pdf/.txt Datei angeben.
 Hierfür könnt ihr folgendes Template benutzen:
 
-1. Aufgabe/Funktion: {% include fontcolor_grey.html content="Testfall bezieht sich auf Anforderung in Aufgabe 3.a. was ich über die Funktion `lower_or_equal(num1, num2)` implementiert habe." %}
-2. Was wird geprüft: {% include fontcolor_grey.html content="Ob return-Wert richtig ist." %}
-3. Wie reproduzieren: {% include fontcolor_grey.html content="In `main.py` in einer neuen Zeile: `print(create_sum(5, 5))`" %}
-4. Kurze Erklärung: {% include fontcolor_grey.html content="Überprüfung mit zwei gleich großen Zahlen." %}
+1. Aufgabe/Funktion: Testfall bezieht sich auf Anforderung in Aufgabe 3.a. was ich über die Funktion `lower_or_equal(num1, num2)` implementiert habe.
+2. Was wird geprüft: Ob return-Wert richtig ist.
+3. Wie reproduzieren: In `main.py` in einer neuen Zeile: `print(create_sum(5, 5))`
+4. Kurze Erklärung: Überprüfung mit zwei gleich großen Zahlen.
 5. Ist-Ergebnis: True
 6. Soll-Ergebnis: True
-7. Bestanden: Ja. \textcolor{red}{red}
+7. Bestanden: Ja
 
 Gerne mit Screenshots ergänzen. Tabellarische Darstellung erwünscht, das macht es noch übersichtlicher.
-
-{% include fontcolor_grey.html content="Ob der return Wert eine Liste ist (weil im Übungsblatt so gefordert...)" %}
