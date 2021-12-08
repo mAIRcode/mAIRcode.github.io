@@ -27,7 +27,7 @@ Wie man Testfälle in EPR Abgaben angibt (gültig für Gruppen 11 und 21 im WiSe
 ...durfte man Testfällen in eine .pdf/.txt Datei angeben.
 Hierfür könnt ihr folgendes Template benutzen:
 
-1. **Aufgabe/Funktion**: Testfall bezieht sich auf Anforderung in Aufgabe 3.a. was ich über die Funktion `lower_or_equal(num1, num2)` implementiert habe.
+1. **Aufgabe/Funktion**: Testfall bezieht sich auf Anforderung in Aufgabe 3.a., die ich als Funktion `lower_or_equal(num1, num2)` implementiert habe.
 2. **Was wird geprüft**: Ob return-Wert richtig ist.
 3. **Wie reproduzieren**: In `main.py` in einer neuen Zeile: `print(create_sum(5, 5))`
 4. **Kurze Erklärung**: Überprüfung mit zwei gleich großen Zahlen.
