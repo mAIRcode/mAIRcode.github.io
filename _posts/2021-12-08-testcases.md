@@ -24,8 +24,8 @@ Wie man Testfälle in EPR Abgaben angibt (gültig für Gruppen 11 und 21 im WiSe
 
 ## Im einfachsten Fall...
 
-...durfte man Testfällen in eine .pdf/.txt Datei angeben.
-Hierfür könnt ihr folgendes Template benutzen:
+...durfte man Testfälle in eine .pdf/.txt Datei angeben.
+Eine Idee hierfür wäre folgendes Template zu benutzen:
 
 1. **Aufgabe/Funktion**: Testfall bezieht sich auf Anforderung in Aufgabe 3.a., die ich als Funktion `lower_or_equal(num1, num2)` implementiert habe.
 2. **Was wird geprüft**: Ob return-Wert richtig ist.
