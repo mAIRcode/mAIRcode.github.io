@@ -36,3 +36,7 @@ Eine Idee hierfür wäre folgendes Template zu benutzen:
 7. **Bestanden**: Ja
 
 Gerne mit Screenshots ergänzen. Tabellarische Darstellung erwünscht, das macht es noch übersichtlicher.
+
+## Automatisierte Tests
+
+[todo]
