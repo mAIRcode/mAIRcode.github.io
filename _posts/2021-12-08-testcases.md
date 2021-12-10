@@ -60,9 +60,10 @@ if __name__ == "__main__":
 Unser Ziel ist es jetzt die Funktion `sum_nums` mit bestimmten Argumenten aufzurufen (z.B. `sum_nums(1, 2)`), den zurückgegebenen Wert mit einem erwarteten Wert (z.B. `3`) zu vergleichen (Soll/Ist-Vergleich), und falls die zwei Werte nicht übereinstimmen, einen Fehler ausgeben.
 
 Eine Möglichkeit dieses Ziel zu erreichen ist über das `doctest` modul:
-```Python
+
+{% highlight python %}
 import doctest
-```
+{% endhighlight %}
 
 Die Soll-Ist Vergleiche werden jetzt einfach in den Docstrings geschrieben, das sieht dann so aus (Erklärung zu den einzelnen Zeilen weiter unten):
 
@@ -143,6 +144,42 @@ Got:
 
 Process finished with exit code 0
 ```
+
+### Doctests mit zufälligen Werten
+
+Angenommen eine Funktion soll einen zufälligen Wert ausgebe: Wie können wir diesen Wert testen?
+
+Hierfür kann man im `random` modul einen sogenannten seed setzen. Das geht ganz einfach mit `random.seed(5)`, wobei es egal ist welche Zahl man einsetzt. Seed hat folgende Auswirkung:
+
+**Skript**:
+{% highlight %}
+
+import random
+
+random.seed(10)
+
+print(random.randint(1, 100))
+print(random.randint(1, 100))
+
+{% endhighlight %}
+
+**Output**: 
+```
+74
+5
+```
+
+jetzt rufen wir das Modul nochmal auf:
+
+**Output**: 
+```
+74
+5
+```
+
+Output hat sich also beim zweiten Durchlauf nicht geändert!
+
+Nutze jetzt diese Eigenschaft um randomisierte Ausgaben zu testen :)
 
 
 
