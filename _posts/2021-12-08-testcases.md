@@ -97,7 +97,7 @@ Jetzt müssen wir nur noch das doctest modul auffordern sich das Docstring "anzu
 
 Das ganze zusammen sieht dann so aus:
 
-
+{% highlight python %}
 ```Python
 import doctest
 
@@ -123,6 +123,7 @@ def sum_nums(a, b):
 if __name__ == "__main__":
     doctest.testmod()
 ```
+{% endhighlight %}
 
 Wie sieht das Ergebnis aus wenn ich das modul ausführe? Schließlich sollte der dritte Test ja fehlschlagen...
 
@@ -148,12 +149,7 @@ Process finished with exit code 0
    :emphasize-lines: 3,5
 
 
-{% highlight python %}
-print("hello")
 
-def f():
-    print("hrllo")
 
-f()
-{% endhighlight %}
+
 
