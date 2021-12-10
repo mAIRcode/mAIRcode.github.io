@@ -144,5 +144,16 @@ Got:
 Process finished with exit code 0
 ```
 
+.. code-block:: python
+   :emphasize-lines: 3,5
 
+
+{% highlight python %}
+print("hello")
+
+def f():
+    print("hrllo")
+
+f()
+{% endhighlight %}
 
