@@ -177,7 +177,7 @@ jetzt rufen wir das Modul nochmal auf:
 5
 ```
 
-Output hat sich also beim zweiten Durchlauf nicht geändert!
+Der Output hat sich also beim zweiten Durchlauf nicht geändert!
 
 Nutze jetzt diese Eigenschaft um randomisierte Ausgaben zu testen :)
 
