@@ -22,9 +22,9 @@ Wie man Testfälle in EPR Abgaben angibt (gültig für Gruppen 11 und 21 im WiSe
 
 {% include important.html content="Keine Ahnung was die nächsten Übungblätter alles für Anforderungen haben werden. Folgendes galt für alle *bisherigen* Übungsblätter." %}
 
-## Im einfachsten Fall...
+## 1. Im einfachsten Fall...
 
-...durfte man Testfälle in eine .pdf/.txt Datei angeben.
+...durfte man Testfälle in eine **.pdf/.txt** Datei angeben.
 Eine Idee hierfür wäre folgendes Template zu benutzen:
 
 1. **Aufgabe/Funktion**: Testfall bezieht sich auf Anforderung in Aufgabe 3.a., die ich als Funktion `lower_or_equal(num1, num2)` implementiert habe.
@@ -37,7 +37,7 @@ Eine Idee hierfür wäre folgendes Template zu benutzen:
 
 Gerne mit Screenshots ergänzen. Tabellarische Darstellung erwünscht, das macht es noch übersichtlicher.
 
-## Automatisiert mit dem `doctest` Modul
+## 2. Automatisiert mit `doctest`
 
 Angenommen wir haben ein modul mit folgendem Inhalt:
 
@@ -145,14 +145,14 @@ Got:
 Process finished with exit code 0
 ```
 
-### Doctests mit zufälligen Werten
+### 2.1 Doctests mit zufälligen Werten
 
 Angenommen eine Funktion soll einen zufälligen Wert ausgebe: Wie können wir diesen Wert testen?
 
 Hierfür kann man im `random` modul einen sogenannten seed setzen. Das geht ganz einfach mit `random.seed(5)`, wobei es egal ist welche Zahl man einsetzt. Seed hat folgende Auswirkung:
 
 **Skript**:
-{% highlight %}
+{% highlight python %}
 
 import random
 
