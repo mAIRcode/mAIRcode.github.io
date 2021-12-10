@@ -37,6 +37,91 @@ Eine Idee hierfür wäre folgendes Template zu benutzen:
 
 Gerne mit Screenshots ergänzen. Tabellarische Darstellung erwünscht, das macht es noch übersichtlicher.
 
-## Automatisierte Tests
+## Automatisiert mit dem `doctest` Modul
 
-[todo]
+Angenommen wir haben ein modul mit folgendem Inhalt:
+
+```Python
+def sum_nums(a, b):
+    """ This functions returns the sum of two numbers (i.e. both arguments).
+    :param a: a number
+    :param b: another number
+    :return: sum of a and b
+    """
+    result = a + b
+    return result
+    
+if __name__ == "__main__":
+    x = sum_nums(1, 2)
+    print(x)  #
+```
+
+Unser Ziel ist es jetzt die Funktion `sum_nums` mit bestimmten Argumenten aufzurufen (z.B. `sum_nums(1, 2)`), den zurückgegebenen Wert mit einem erwarteten Wert (z.B. `3`) zu vergleichen (Soll/Ist-Vergleich), und falls die zwei Werte nicht übereinstimmen, einen Fehler ausgeben.
+
+Eine Möglichkeit dieses Ziel zu erreichen ist über das `doctest` modul:
+```Python
+import doctest
+```
+
+Die Soll-Ist Vergleiche werden jetzt einfach in den Docstrings geschrieben, das sieht dann so aus (Erklärung zu den einzelnen Zeilen weiter unten):
+
+```Python
+def sum_nums(a, b):
+    """ This functions returns the sum of two numbers (i.e. both arguments).
+    
+    >>> sum_nums(1, 2)
+    3
+    >>> sum_nums(-5, 5)
+    0
+    >>> sum_nums(-5, 5)
+    1
+    
+    :param a: a number
+    :param b: another number
+    :return: sum of a and b
+    """
+    result = a + b
+    return result
+```
+
+
+Zeilen 4 bis 9 sollten an die Python Console erinnern: Den Eingabezeilen wird `>>>` vorangesetzt. Der erwartete zurückgegebene Wert wird einfach in eine neue Zeile geschrieben. z.B.:
+```Python
+>>> sum_nums(1, 2)
+3
+```
+
+Jetzt müssen wir nur noch das doctest modul auffordern sich das Docstring "anzuschauen" und die darin enthalteten tests auszuführen: `doctest.testmod()`.
+
+*"Wie erkennt doctest welche Funktionen ich testen will?"* Gute Frage, tatsächlich werden hiermit die Doctests *aller* Funktionen im Modul ausgeführt. Funktionen ohne Doctests in den Docstrings werden natürlich nicht getestet...
+
+Das ganze zusammen sieht dann so aus:
+
+
+```Python
+import doctest
+
+def sum_nums(a, b):
+    """ This functions returns the sum of two numbers (i.e. both arguments).
+
+    >>> sum_nums(1, 2)
+    3
+    >>> sum_nums(-5, 5)
+    0
+    >>> sum_nums(-5, 5)
+    1
+
+    :param a: a number
+    :param b: another number
+    :return: sum of a and b
+    """
+
+    result = a + b
+    return result
+
+
+if __name__ == "__main__":
+    doctest.testmod()
+```
+
+
