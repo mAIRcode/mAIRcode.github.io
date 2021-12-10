@@ -124,4 +124,25 @@ if __name__ == "__main__":
     doctest.testmod()
 ```
 
+Wie sieht das Ergebnis aus wenn ich das modul ausführe? Schließlich sollte der dritte Test ja fehlschlagen...
+
+
+```Python
+**********************************************************************
+File "C:/path/to/example.py", line 10, in __main__.sum_nums
+Failed example:
+    sum_nums(-5, 5)
+Expected:
+    1
+Got:
+    0
+**********************************************************************
+1 items had failures:
+   1 of   3 in __main__.sum_nums
+***Test Failed*** 1 failures.
+
+Process finished with exit code 0
+```
+
+
 
