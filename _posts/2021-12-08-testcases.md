@@ -65,7 +65,7 @@ import doctest
 
 Die Soll-Ist Vergleiche werden jetzt einfach in den Docstrings geschrieben, das sieht dann so aus (Erklärung zu den einzelnen Zeilen weiter unten):
 
-```Python
+{% highlight python %}
 def sum_nums(a, b):
     """ This functions returns the sum of two numbers (i.e. both arguments).
     
@@ -82,14 +82,14 @@ def sum_nums(a, b):
     """
     result = a + b
     return result
-```
+{% endhighlight %}
 
 
 Zeilen 4 bis 9 sollten an die Python Console erinnern: Den Eingabezeilen wird `>>>` vorangesetzt. Der erwartete zurückgegebene Wert wird einfach in eine neue Zeile geschrieben. z.B.:
-```Python
+{% highlight python %}
 >>> sum_nums(1, 2)
 3
-```
+{% endhighlight %}
 
 Jetzt müssen wir nur noch das doctest modul auffordern sich das Docstring "anzuschauen" und die darin enthalteten tests auszuführen: `doctest.testmod()`.
 
