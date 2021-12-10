@@ -41,7 +41,8 @@ Gerne mit Screenshots ergänzen. Tabellarische Darstellung erwünscht, das macht
 
 Angenommen wir haben ein modul mit folgendem Inhalt:
 
-```Python
+
+{% highlight python %}
 def sum_nums(a, b):
     """ This functions returns the sum of two numbers (i.e. both arguments).
     :param a: a number
@@ -54,7 +55,7 @@ def sum_nums(a, b):
 if __name__ == "__main__":
     x = sum_nums(1, 2)
     print(x)  #
-```
+{% endhighlight %}
 
 Unser Ziel ist es jetzt die Funktion `sum_nums` mit bestimmten Argumenten aufzurufen (z.B. `sum_nums(1, 2)`), den zurückgegebenen Wert mit einem erwarteten Wert (z.B. `3`) zu vergleichen (Soll/Ist-Vergleich), und falls die zwei Werte nicht übereinstimmen, einen Fehler ausgeben.
 
@@ -142,12 +143,6 @@ Got:
 
 Process finished with exit code 0
 ```
-
-.. code-block:: python
-   :emphasize-lines: 3,5
-
-
-
 
 
 
