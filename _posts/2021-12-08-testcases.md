@@ -127,7 +127,7 @@ if __name__ == "__main__":
 Wie sieht das Ergebnis aus wenn ich das modul ausführe? Schließlich sollte der dritte Test ja fehlschlagen...
 
 
-```Python
+```
 **********************************************************************
 File "C:/path/to/example.py", line 10, in __main__.sum_nums
 Failed example:
